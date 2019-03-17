@@ -25,7 +25,5 @@ function currentLine (line) {
       string += ','
     } }
     return string
-  
+
     }}
-
-
