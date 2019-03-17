@@ -11,3 +11,5 @@ function nowServing(line) {
   } else { return line[0]
     line.shift()
 }
+}
+
