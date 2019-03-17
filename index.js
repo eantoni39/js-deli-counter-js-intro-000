@@ -8,8 +8,9 @@ line.push(name)
 function nowServing(line) {
   if (line.length === 0) {
     return 'There is nobody waiting to be served!'
-  } else { line.shift()
-    return `Currently serving ${line[0]}.`
+  } else { var mem = line[0]
+    line.shift()
+    return `Currently serving ${mem}.`
 }
 
 }
