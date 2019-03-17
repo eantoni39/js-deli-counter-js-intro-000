@@ -8,7 +8,7 @@ line.push(name)
 function nowServing(line) {
   if (line.length === 0) {
     return 'There is nobody waiting to be served!'
-  } else { return `Currently serving ${line[0]}`
+  } else { return `Currently serving ${line[0]}.`
     line.shift()
 }
 }
